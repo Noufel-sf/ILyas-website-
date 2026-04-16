@@ -7,7 +7,7 @@ html {
 * {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -16,7 +16,14 @@ html {
   /* ===========================================
      COLORS (LIGHT MODE)
   ============================================ */
-  --color-primary: #8D0430;
+   --color-primary: #E02F75;
+   --gradient-primary: linear-gradient(
+      180deg,
+      #FF5A57 0%,
+      #E02F75 33%,
+      #6700A3 66%,
+      #050C38 100%
+   );
 
   --color-secondary: #FFA9C4;
   
