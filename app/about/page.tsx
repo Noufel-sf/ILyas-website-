@@ -1,53 +1,11 @@
-import React from "react";
 import Link from "next/link";
-import { ArrowLeft, Check } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import CtaSection from "../components/CtaSection";
+import Owner from "../components/Owner";
+import WhyChooseUs from "../components/WhyChooseUs";
+import OurVision from "../components/OurVision";
 
 export default function AboutPage() {
-  const highlights = [
-    {
-      title: "تأهيل شامل",
-      description:
-        "برنامج متكامل يغطي المسارات المهارية والقانونية والإدارية والسياسية.",
-    },
-    {
-      title: "قيادة واعية",
-      description:
-        "نعد جيلاً قادراً على فهم الحياة العامة والمشاركة الفعالة فيها.",
-    },
-    {
-      title: "هوية قوية",
-      description:
-        "نحافظ على التراث الثقافي ونطوره ليكون منطلقاً للتغيير الإيجابي.",
-    },
-    {
-      title: "شراكات استراتيجية",
-      description:
-        "دعم من وزارة الشباب والمجلس الأعلى للشباب ضمن برنامج DZ Young Leaders.",
-    },
-  ];
-
-  const programPillars = [
-    {
-      number: "01",
-      title: "المهارات القيادية",
-      description:
-        "تطوير مهارات الاتصال، إدارة المشاريع، حل المشاكل، واتخاذ القرارات الاستراتيجية.",
-    },
-    {
-      number: "02",
-      title: "الوعي السياسي",
-      description:
-        "فهم عميق لآليات العمل المؤسساتي، النظم السياسية، والقوانين والتشريعات.",
-    },
-    {
-      number: "03",
-      title: "المسؤولية الاجتماعية",
-      description:
-        "تدريب عملي على المشاركة الفعالة في الحياة العامة وخدمة المجتمع.",
-    },
-  ];
-
   return (
     <main dir="rtl" className="min-h-screen ">
       {/* ── Hero Section ── */}
@@ -63,7 +21,10 @@ export default function AboutPage() {
 
           <h1 className="heading mb-6 text-5xl font-bold leading-tight  text-slate-900 sm:text-6xl lg:text-7xl">
             مشروع
-            <span className="text-primary heading marker-underline"> البوصلة</span>
+            <span className="text-primary heading marker-underline">
+              {" "}
+              البوصلة
+            </span>
           </h1>
 
           <p className="mx-auto mb-8 max-w-3xl text-lg leading-8 text-slate-600 sm:text-xl">
@@ -83,95 +44,13 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+      <Owner />
 
       {/* ── Mission & Vision ── */}
-      <section className="px-4 py-20 sm:px-8 lg:px-12">
-        <div className="mx-auto max-w-6xl">
-          <div className="grid gap-12 lg:grid-cols-2">
-            {/* Mission */}
-            <article className="rounded-3xl border border-primary/20 bg-linear-to-br from-white to-primary/5 p-8 shadow-sm sm:p-10">
-              <div className="mb-4 inline-block rounded-full bg-primary/15 p-3">
-                <svg
-                  className="h-7 w-7 text-primary"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={1.5}
-                    d="M13 10V3L4 14h7v7l9-11h-7z"
-                  />
-                </svg>
-              </div>
-              <h2 className="heading mb-4 text-3xl font-bold text-slate-900">
-                مهمتنا
-              </h2>
-              <p className="text-lg leading-8 text-slate-600">
-                تأهيل جيل واعٍ من الشباب الجزائري بمعارف ومهارات سياسية وقيادية
-                متقدمة، قادر على فهم آليات العمل المؤسساتي والمشاركة الفعالة في
-                صناعة القرار، بما يعكس التزامنا بخدمة الوطن وتطويره.
-              </p>
-            </article>
+    
+      <WhyChooseUs />
+      <OurVision />
 
-            {/* Vision */}
-            <article className="rounded-3xl border border-primary/20 bg-linear-to-br from-white to-primary/5 p-8 shadow-sm sm:p-10">
-              <div className="mb-4 inline-block rounded-full bg-primary/15 p-3">
-                <svg
-                  className="h-7 w-7 text-primary"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={1.5}
-                    d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-              </div>
-              <h2 className="heading mb-4 text-3xl font-bold text-slate-900">
-                رؤيتنا
-              </h2>
-              <p className="text-lg leading-8 text-slate-600">
-                بناء حركة شبابية قيادية قوية تمثل قيم الوطنية والمسؤولية
-                والأمانة، وتسهم في بناء مستقبل مشرق للجزائر من خلال مشاركة فعالة
-                وواعية في الحياة السياسية والعامة.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      {/* ── Highlights ── */}
-      <section className="px-4 py-20 sm:px-8 lg:px-12">
-        <div className="mx-auto max-w-6xl">
-          <h2 className="heading mb-16 text-center text-4xl font-bold text-slate-900 sm:text-5xl">
-         ما  الدي <span className="heading  marker-underline text-primary">يميزنا</span>
-          </h2>
-
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {highlights.map((item, idx) => (
-              <article
-                key={idx}
-                className="rounded-2xl border border-primary/15 bg-white p-6 shadow-sm transition-all hover:border-primary/40 hover:shadow-md"
-              >
-                <div className="mb-4 inline-block rounded-lg bg-primary/10 p-2.5">
-                  <Check className="h-5 w-5 text-primary" />
-                </div>
-                <h3 className="heading mb-3 text-lg font-bold text-slate-900">
-                  {item.title}
-                </h3>
-                <p className="text-sm leading-7 text-slate-600">
-                  {item.description}
-                </p>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* ── Program Pillars ── */}
       {/* <section className="relative overflow-hidden px-4 py-24 sm:px-8 lg:px-12">
@@ -209,7 +88,7 @@ export default function AboutPage() {
       </section> */}
 
       {/* ── Impact Stats ── */}
-      <section className="px-4 py-20 sm:px-8 lg:px-12">
+      {/* <section className="px-4 py-20 sm:px-8 lg:px-12">
         <div className="mx-auto max-w-6xl">
           <div className="grid gap-8 sm:grid-cols-3">
             <div className="rounded-2xl border border-primary/20 bg-linear-to-br from-primary/10 to-white p-8 text-center">
@@ -240,13 +119,16 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* ── Values Grid ── */}
       <section className="px-4 py-20 sm:px-8 lg:px-12">
         <div className="mx-auto max-w-6xl">
           <h2 className="heading mb-16 text-center text-4xl font-bold text-slate-900 sm:text-5xl">
-            قيمنا <span className="text-primary marker-underline heading">الأساسية</span>
+            قيمنا{" "}
+            <span className="text-primary marker-underline heading">
+              الأساسية
+            </span>
           </h2>
 
           <div className="grid gap-6 sm:grid-cols-2">

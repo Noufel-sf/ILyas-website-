@@ -37,7 +37,7 @@ export default function RootLayout({
         <div className="relative isolate min-h-screen w-full overflow-x-hidden bg-white">
           <div
             aria-hidden="true"
-            className="pointer-events-none absolute inset-0 -z-20 bg-[radial-gradient(circle_at_20%_25%,rgba(10,153,0,0.12),transparent_36%),radial-gradient(circle_at_80%_10%,rgba(224,47,117,0.14),transparent_30%),linear-gradient(180deg,#ffffff_0%,#f7fbff_100%)]"
+            className="pointer-events-none absolute inset-0 -z-20 "
           />
 
           <div className="relative z-10 flex min-h-screen flex-col">

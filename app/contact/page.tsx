@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FaqSection from "../components/FaqSection";
+import OurLocation from "../components/OurLocation";
 
 const socials = [
   {
@@ -33,8 +34,8 @@ const socials = [
   {
     id: "whatsapp",
     label: "واتساب",
-    handle: "+213 555 00 00 00",
-    href: "https://wa.me/213555000000",
+    handle: "0540355191",
+    href: "https://wa.me/+213540355191",
     description: "تواصل مباشرة للاستفسار حول التسجيل",
     color: "hover:border-[#25D366] hover:text-[#25D366]",
     icon: (
@@ -101,7 +102,7 @@ export default function ContactPage() {
 
               {/* Text */}
               <div className="flex flex-col gap-1 min-w-0">
-                <span className="text-[0.72rem] font-semibold tracking-[0.1em] text-primary">
+                <span className="text-[0.72rem] font-semibold tracking-widest text-primary">
                   {s.label}
                 </span>
                 <span className="text-[1.05rem] font-semibold tracking-tight text-slate-900 truncate">
@@ -135,8 +136,7 @@ export default function ContactPage() {
           <div className="h-px flex-1 bg-primary/20" />
         </div>
 
-        <a
-          href="mailto:contact@elbawsala.dz"
+        <span
           className="group flex w-full items-center justify-between rounded-2xl border border-primary bg-primary px-8 py-7 text-white transition-colors duration-300 hover:bg-secondary hover:border-secondary"
         >
           <div className="flex flex-col gap-1">
@@ -144,7 +144,7 @@ export default function ContactPage() {
               البريد الإلكتروني
             </span>
             <span className="text-[1.1rem] font-semibold tracking-tight">
-              contact@elbawsala.dz
+              albawsalaprogram@gmail.com
             </span>
           </div>
           <svg
@@ -156,7 +156,7 @@ export default function ContactPage() {
           >
             <path d="M5 12h14M12 5l7 7-7 7" />
           </svg>
-        </a>
+        </span>
 
         {/* ── Response note ── */}
         <p className="mt-10 text-center text-[0.8rem] leading-relaxed text-slate-500">
@@ -165,6 +165,7 @@ export default function ContactPage() {
           معدل الرد: خلال 24 ساعة
         </p>
       </div>
+      <OurLocation />
       <FaqSection />
 
     </main>
