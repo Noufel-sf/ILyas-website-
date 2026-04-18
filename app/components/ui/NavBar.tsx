@@ -33,8 +33,8 @@ export default function Navbar() {
         className={[
           "sticky top-0 z-40 transition-all duration-300",
           scrolled
-            ? "border-b border-primary/20 bg-white/75 shadow-sm backdrop-blur-lg"
-            : "border-b border-transparent bg-white/65",
+            ? "border-b border-primary/20  shadow-sm backdrop-blur-lg"
+            : "border-b border-transparent ",
         ].join(" ")}
       >
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6 lg:px-4">
@@ -109,7 +109,7 @@ export default function Navbar() {
           <Link
             href="/"
             onClick={() => setIsOpen(false)}
-            className="heading text-xl font-bold tracking-tight text-primary"
+            className="heading text-xl marker-underline font-bold tracking-tight text-primary"
           >
             البوصلة
           </Link>

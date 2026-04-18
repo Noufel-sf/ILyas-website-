@@ -41,7 +41,7 @@ function PenSVG() {
 function LogoSlot() {
   return (
     <div
-      className="flex items-center gap-3 select-none"
+      className="hidden md:flex items-center gap-3 select-none"
       aria-label="شعار المشروع"
     >
       <div className="relative flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl border-2 border-primary bg-white shadow-md ring-2 ring-primary/30">

@@ -3,6 +3,7 @@ import { Amiri , Readex_Pro } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/ui/Footer";
 import NavBar from "./components/ui/NavBar";
+import BackToTopButton from "./components/ui/BackToTopButton";
 
 const AmiriFont = Amiri({
   subsets: ["latin"],
@@ -37,13 +38,22 @@ export default function RootLayout({
         <div className="relative isolate min-h-screen w-full overflow-x-hidden bg-white">
           <div
             aria-hidden="true"
-            className="pointer-events-none absolute inset-0 -z-20 "
+            className="pointer-events-none absolute inset-0 -z-20"
+            style={{
+              background: "white",
+              backgroundImage: `
+                linear-gradient(to right, rgba(71,85,105,0.15) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(71,85,105,0.15) 1px, transparent 1px)
+              `,
+              backgroundSize: "40px 40px, 40px 40px",
+            }}
           />
 
           <div className="relative z-10 flex min-h-screen flex-col">
             {children}
           </div>
         </div>
+        <BackToTopButton />
         <Footer />
       </body>
     </html>
