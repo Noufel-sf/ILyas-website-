@@ -121,9 +121,7 @@ export default function HeroSection() {
         >
           هل أنت مستعد لتقود التغيير وتُشارك في
           <span className="relative heading marker-underline text-primary mx-2 inline-block pb-2">
-            صناعة القرار
-          ؟
-        
+            صناعة القرار ؟
           </span>
         </motion.h1>
         <motion.div
@@ -144,19 +142,18 @@ export default function HeroSection() {
           transition={{ duration: 0.7, delay: 0.3, ease: "easeOut" }}
           className="mt-6 max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl"
         >
-          مشروع البوصلة مبادرة شبابية   لتأهيل وتمكين الشباب في المجال
-          السياسي عبر مسارات مهارية، قانونية، إدارية وسياسية.
+          مشروع البوصلة مبادرة شبابية لتأهيل وتمكين الشباب في المجال السياسي عبر
+          مسارات مهارية، قانونية، إدارية وسياسية.
         </motion.p>
-
         <motion.p
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.42, ease: "easeOut" }}
           className="mt-3 max-w-2xl text-sm leading-7 text-slate-500 sm:text-base"
         >
-          نسعى إلى إعداد جيل واعٍ يفهم آليات العمل المؤسساتي ويشارك بفعالية في
-          الحياة العامة، من خلال تكوينات تطبيقية تعزز الكفاءة والقيادة
-          والمسؤولية.
+          تم اختيار المشروع ضمن برنامج  <span className="font-bold marker-underline text-primary">DZ Young Leaders</span> التابع لوزارة الشباب
+          وبالتنسيق مع المجلس الأعلى للشباب، مما يعكس أهمية دوره في دعم وتمكين
+          الشباب الجزائري.
         </motion.p>
 
         {/* CTA */}
@@ -174,58 +171,32 @@ export default function HeroSection() {
           </Link>
         </motion.div>
 
-        {/* ── Divider ── */}
-        <div className="my-14 w-full max-w-2xl border-t border-dashed border-slate-200" />
-
-        {/* Bottom call-out */}
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.85 }}
-          className="max-w-4xl text-2xl heading font-extrabold leading-relaxed sm:text-4xl"
+        {/* Corner accents */}
+        <span
+          className="pointer-events-none absolute right-[14%] top-20 text-2xl text-yellow-400 opacity-70"
+          aria-hidden="true"
         >
-          انضم وتطوع مع فريقنا في البحث والتطوير،
-          <br className="hidden sm:block" />
-          لتكون جزءًا من إرثنا الحضاري الخالد.
-        </motion.p>
-
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.95 }}
-          className="mt-5 max-w-3xl text-sm leading-7 text-slate-500 sm:text-base"
+          ✦
+        </span>
+        <span
+          className="pointer-events-none absolute left-[15%] top-32 text-xl text-pink-400 opacity-60"
+          aria-hidden="true"
         >
-          تم اختيار المشروع ضمن برنامج DZ Young Leaders التابع لوزارة الشباب
-          وبالتنسيق مع المجلس الأعلى للشباب، مما يعكس أهمية دوره في دعم وتمكين
-          الشباب الجزائري.
-        </motion.p>
+          ✦
+        </span>
+        <span
+          className="pointer-events-none absolute right-[22%] top-56 text-sm text-violet-400 opacity-50"
+          aria-hidden="true"
+        >
+          ●
+        </span>
+        <span
+          className="pointer-events-none absolute left-[22%] top-64 text-sm text-indigo-400 opacity-50"
+          aria-hidden="true"
+        >
+          ●
+        </span>
       </div>
-
-      {/* Corner accents */}
-      <span
-        className="pointer-events-none absolute right-[14%] top-20 text-2xl text-yellow-400 opacity-70"
-        aria-hidden="true"
-      >
-        ✦
-      </span>
-      <span
-        className="pointer-events-none absolute left-[15%] top-32 text-xl text-pink-400 opacity-60"
-        aria-hidden="true"
-      >
-        ✦
-      </span>
-      <span
-        className="pointer-events-none absolute right-[22%] top-56 text-sm text-violet-400 opacity-50"
-        aria-hidden="true"
-      >
-        ●
-      </span>
-      <span
-        className="pointer-events-none absolute left-[22%] top-64 text-sm text-indigo-400 opacity-50"
-        aria-hidden="true"
-      >
-        ●
-      </span>
     </section>
   );
 }

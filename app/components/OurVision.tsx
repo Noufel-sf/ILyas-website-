@@ -57,20 +57,7 @@ export default function OurVision() {
 
           {/* mission + vision cards */}
           <div className="grid gap-4 sm:grid-cols-2">
-            <article className="group relative overflow-hidden rounded-2xl border border-slate-100 bg-slate-50 p-5 transition-all duration-200 hover:border-primary/25 hover:bg-primary/[0.03]">
-              <div className="absolute left-0 top-0 h-full w-1 bg-primary rounded-r-full opacity-0 group-hover:opacity-100 transition-opacity" />
-              <span className="mb-3 block text-xs font-bold uppercase tracking-widest text-primary/60">
-                01
-              </span>
-              <h3 className="heading text-lg font-extrabold text-slate-900">
-                مهمة مختصرة
-              </h3>
-              <p className="mt-2 text-sm leading-7 text-slate-500">
-                تأهيل شباب واعٍ وقادر على المشاركة المسؤولة في الحياة السياسية
-                والعامة.
-              </p>
-            </article>
-
+          
             <article className="group relative overflow-hidden rounded-2xl border border-primary/15 bg-primary/[0.04] p-5 transition-all duration-200 hover:border-primary/35">
               <div className="absolute left-0 top-0 h-full w-1 bg-primary rounded-r-full" />
               <span className="mb-3 block text-xs font-bold uppercase tracking-widest text-primary/60">

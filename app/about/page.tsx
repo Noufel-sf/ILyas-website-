@@ -5,6 +5,7 @@ import Owner from "../components/Owner";
 import WhyChooseUs from "../components/WhyChooseUs";
 import OurVision from "../components/OurVision";
 import OurGoal from "../components/OurGoal";
+import OurTeam from "../components/OurTeam";
 
 export default function AboutPage() {
   return (
@@ -52,6 +53,7 @@ export default function AboutPage() {
       <WhyChooseUs />
       <OurGoal />
       <OurVision />
+      <OurTeam />
 
 
       {/* ── Program Pillars ── */}
