@@ -15,7 +15,7 @@ function CtaSection() {
           </p>
           <Link
             href="/contact"
-            className="btn-gradient group heading inline-flex items-center gap-2 rounded-xl px-8 py-3.5 text-lg font-bold shadow-lg transition-all hover:scale-105"
+            className="bg-white hover:bg-gray-100 group heading inline-flex items-center gap-2 rounded-xl px-8 py-3.5 text-lg font-bold shadow-lg transition-all hover:scale-105"
           >
             تواصل معنا الآن
             <ArrowLeft className="h-5 w-5 transition-transform group-hover:-translate-x-1" />
