@@ -64,7 +64,7 @@ export default function Navbar() {
           <div className="hidden md:flex flex-col md:flex-row items-center gap-2 md:block">
             <Link
               href="/contact"
-              className="group inline-flex cursor-pointer items-center gap-3 rounded-xl bg-primary px-6 py-2.5 text-sm font-bold text-white shadow-lg transition-all hover:scale-[1.02] hover:bg-secondary"
+              className="group heading inline-flex cursor-pointer items-center gap-3 rounded-xl bg-primary px-6 py-2.5 text-sm font-bold text-white shadow-lg transition-all hover:scale-[1.02] hover:bg-secondary"
             >
               انضم الآن
               <ArrowLeft className="h-5 w-5 transition-transform group-hover:-translate-x-1" />
@@ -141,7 +141,7 @@ export default function Navbar() {
           <Link
             href="/contact"
             onClick={() => setIsOpen(false)}
-            className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary py-3.5 text-sm font-bold text-white shadow-lg transition-all hover:bg-secondary"
+            className="inline-flex w-full items-center heading justify-center gap-2 rounded-xl bg-primary py-3.5 text-sm font-bold text-white shadow-lg transition-all hover:bg-secondary"
           >
             انضم الآن
             <ArrowLeft className="h-5 w-5" />

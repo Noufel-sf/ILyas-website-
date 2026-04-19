@@ -29,10 +29,10 @@ export default function Footer() {
         {/* Left: Newsletter */}
         <div className="flex-1 max-w-xl">
           <h2 className="text-4xl md:text-5xl heading font-black mb-4 leading-tight">
-            اشترك في مشروع البوصلة
+            انضم في مشروع البوصلة
           </h2>
           <p className="text-gray-400 text-sm mb-8  leading-relaxed">
-            اشترك في مشروع البوصلة لتستلم أحدث الحلقات والأخبار.
+            انضم في مشروع البوصلة لتستلم أحدث الحلقات والأخبار.
           </p>
  
        
