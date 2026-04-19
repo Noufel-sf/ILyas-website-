@@ -36,7 +36,7 @@ export default function AboutPage() {
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
               href="/contact"
-              className="group inline-flex items-center gap-2 rounded-xl bg-primary px-8 py-3.5 text-lg font-bold text-white shadow-lg transition-all hover:scale-105 hover:bg-secondary"
+              className="btn-gradient group inline-flex items-center gap-2 rounded-xl px-8 py-3.5 text-lg font-bold shadow-lg transition-all hover:scale-105"
             >
               انضم إلينا الآن
               <ArrowLeft className="h-5 w-5 transition-transform group-hover:-translate-x-1" />

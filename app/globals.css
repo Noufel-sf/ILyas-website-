@@ -46,8 +46,8 @@ html {
    --gradient-primary: linear-gradient(
       180deg,
       #FF5A57 0%,
-      #E02F75 33%,
-      #6700A3 66%,
+      #E02F75 23%,
+      #6700A3 86%,
       #050C38 100%
    );
 
@@ -145,4 +145,15 @@ html {
   /* usage:
      shadow-lg
   */
+}
+
+.btn-gradient {
+   background-image: var(--gradient-primary);
+   color: #ffffff;
+   border-color: transparent;
+   transition: transform 0.25s ease, filter 0.25s ease, opacity 0.25s ease;
+}
+
+.btn-gradient:hover {
+   filter: brightness(1.05);
 }

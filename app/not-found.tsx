@@ -16,7 +16,7 @@ export default function NotFound() {
         <div className="flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
           <Link
             href="/"
-            className="inline-flex min-w-40 bg-primary items-center justify-center rounded-xl hover:bg-secondary px-6 py-3 text-sm font-semibold text-white transition-colors"
+            className="btn-gradient inline-flex min-w-40 items-center justify-center rounded-xl px-6 py-3 text-sm font-semibold transition-colors"
           >
             العودة للرئيسية
           </Link>

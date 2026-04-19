@@ -7,7 +7,7 @@ const socials = [
     id: "instagram",
     label: "إنستغرام",
     handle: "@elbawsala.dz",
-    href: "https://instagram.com/elbawsala.dz",
+    href: "https://www.instagram.com/albawsala_program",
     description: "تابع آخر الإعلانات والأنشطة التكوينية",
     color: "hover:border-[#E1306C] hover:text-[#E1306C]",
     icon: (
@@ -19,10 +19,23 @@ const socials = [
     ),
   },
   {
+    id: "tiktok",
+    label: "تيك توك",
+    handle: "@albawsala_program",
+    href: "https://www.tiktok.com/@albawsala_program",
+    description: "تابع المقاطع القصيرة والملخصات السريعة",
+    color: "hover:border-[#010101] hover:text-[#010101]",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="currentColor" className="w-7 h-7">
+        <path d="M16.6 5.82a5.1 5.1 0 0 1-1.15-3.28h-3.01v13.18a2.73 2.73 0 1 1-2.73-2.73c.16 0 .31.01.46.04V9.98a5.64 5.64 0 1 0 4.8 5.56V9.6a8.4 8.4 0 0 0 4.91 1.57V8.16a5.1 5.1 0 0 1-3.28-1.34Z" />
+      </svg>
+    ),
+  },
+  {
     id: "facebook",
     label: "فيسبوك",
     handle: "مشروع البوصلة",
-    href: "https://facebook.com/elbawsala",
+    href: "https://web.facebook.com/albawsala_program?_rdc=1&_rdr#",
     description: "اطلع على المستجدات والفعاليات القادمة",
     color: "hover:border-[#1877F2] hover:text-[#1877F2]",
     icon: (
@@ -35,7 +48,7 @@ const socials = [
     id: "whatsapp",
     label: "واتساب",
     handle: "0540355191",
-    href: "https://wa.me/+213540355191",
+    href: "https://api.whatsapp.com/send/?phone=213540355191&text&type=phone_number&app_absent=0",
     description: "تواصل مباشرة للاستفسار حول التسجيل",
     color: "hover:border-[#25D366] hover:text-[#25D366]",
     icon: (
@@ -137,7 +150,7 @@ export default function ContactPage() {
         </div>
 
         <span
-          className="group flex w-full items-center justify-between rounded-2xl border border-primary bg-primary px-8 py-7 text-white transition-colors duration-300 hover:bg-secondary hover:border-secondary"
+          className="btn-gradient group flex w-full items-center justify-between rounded-2xl  px-8 py-7 transition-colors duration-300"
         >
           <div className="flex flex-col gap-1">
             <span className="text-[0.72rem] font-semibold tracking-[0.12em] opacity-80">

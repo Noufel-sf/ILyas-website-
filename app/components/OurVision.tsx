@@ -80,7 +80,7 @@ export default function OurVision() {
                 رؤية واضحة
               </h3>
               <p className="mt-2 text-sm leading-7 text-slate-600">
-                شباب أكثر معرفة، أكثر ثقة، وأكثر قدرة على صناعة القرار.
+                إعداد جيل واعٍ وقادر على المشاركة الفعالة في الحياة السياسية وصناعة القرار
               </p>
             </article>
           </div>
