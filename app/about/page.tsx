@@ -4,6 +4,7 @@ import CtaSection from "../components/CtaSection";
 import Owner from "../components/Owner";
 import WhyChooseUs from "../components/WhyChooseUs";
 import OurVision from "../components/OurVision";
+import OurGoal from "../components/OurGoal";
 
 export default function AboutPage() {
   return (
@@ -49,6 +50,7 @@ export default function AboutPage() {
       {/* ── Mission & Vision ── */}
     
       <WhyChooseUs />
+      <OurGoal />
       <OurVision />
 
 

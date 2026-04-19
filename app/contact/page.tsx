@@ -121,9 +121,9 @@ export default function ContactPage() {
                 <span className="text-[1.05rem] font-semibold tracking-tight text-slate-900 truncate">
                   {s.handle}
                 </span>
-                <span className="mt-0.5 text-[0.85rem] leading-snug text-slate-600">
+                {/* <span className="mt-0.5 text-[0.85rem] leading-snug text-slate-600">
                   {s.description}
-                </span>
+                </span> */}
               </div>
 
               {/* Arrow */}
@@ -173,7 +173,7 @@ export default function ContactPage() {
 
         {/* ── Response note ── */}
         <p className="mt-10 text-center text-[0.8rem] leading-relaxed text-slate-500">
-          الجزائر العاصمة · متاحون للتنسيق عبر مختلف ولايات الوطن
+           شلغوم العيد · متاحون للتنسيق عبر مختلف ولايات الوطن
           <br />
           معدل الرد: خلال 24 ساعة
         </p>

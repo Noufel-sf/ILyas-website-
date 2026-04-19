@@ -96,8 +96,21 @@ export default function HeroSection() {
       </motion.nav>
 
       {/* ── Hero content ── */}
-      <div className="relative z-10 mx-auto flex w-full gap-5 max-w-5xl flex-col items-center text-center">
+      <div className="relative z-10 mx-auto flex w-full gap-2 max-w-5xl flex-col items-center text-center">
         {/* Eyebrow pill */}
+
+        <div className="flex justify-center">
+          <div className="relative  overflow-hidden ">
+            <Image
+              src="/hero5.png"
+              alt="شعار مشروع البوصلة"
+              width={120}
+              height={100}
+              priority
+              className="object-contain"
+            />
+          </div>
+        </div>
 
         {/* Main headline */}
         <motion.h1
@@ -118,9 +131,9 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 0.7, ease: "easeOut" }}
         >
-          <span className="inline-flex w-fit items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-xs font-bold capitalize tracking-widest text-primary">
+          <span className="inline-flex w-fit mt-5 items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-xs font-bold capitalize tracking-widest text-primary">
             <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
-            dz young leaders
+            dz young leaders - مشروع البوصلة
           </span>
         </motion.div>
 
@@ -131,7 +144,7 @@ export default function HeroSection() {
           transition={{ duration: 0.7, delay: 0.3, ease: "easeOut" }}
           className="mt-6 max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl"
         >
-          مشروع البوصلة مبادرة شبابية تكوينية لتأهيل وتمكين الشباب في المجال
+          مشروع البوصلة مبادرة شبابية   لتأهيل وتمكين الشباب في المجال
           السياسي عبر مسارات مهارية، قانونية، إدارية وسياسية.
         </motion.p>
 

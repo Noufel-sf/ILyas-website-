@@ -2,6 +2,7 @@ import FaqSection from "./components/FaqSection";
 import HeroSection from "./components/HeroSection";
 import ProblemAndObjectives from "./components/ProblemAndObjectives";
 import OurVision from "./components/OurVision";
+import OurGoal from "./components/OurGoal";
 import OurValues from "./components/OurValues";
 import CtaSection from "./components/CtaSection";
 
@@ -11,6 +12,7 @@ export default function Page() {
       <HeroSection />
       <OurVision />
       <ProblemAndObjectives />
+      <OurGoal />
       <OurValues />
       {/* <OurValues2 /> */}
       <FaqSection />
