@@ -98,7 +98,7 @@ export default function ContactPage() {
             rel="noopener noreferrer"
             className="btn-gradient inline-flex w-full items-center heading justify-center gap-2 rounded-xl py-3.5 text-sm font-bold shadow-lg transition-all"
           >
-            انضم الآن
+            سجل الآن
             <ArrowLeft className="h-5 w-5" />
           </a>
         </div>

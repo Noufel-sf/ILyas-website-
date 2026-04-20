@@ -36,24 +36,22 @@ export default function AboutPage() {
           </p>
 
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Link
-              href="/contact"
+            <a
+              target="_blank"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdHvr5R3_eS0nwktsFXqSuOYsEY9dgGL9o81FpBuD_gdY6BSQ/viewform?usp=dialog"
               className="btn-gradient group inline-flex items-center gap-2 rounded-xl px-8 py-3.5 text-lg font-bold shadow-lg transition-all hover:scale-105"
             >
-              انضم إلينا الآن
+               سجل الآن
               <ArrowLeft className="h-5 w-5 transition-transform group-hover:-translate-x-1" />
-            </Link>
+            </a>
           </div>
         </div>
       </section>
-      <Owner />
-
-      {/* ── Mission & Vision ── */}
-    
-      <WhyChooseUs />
-      <OurGoal />
-      <OurVision />
       <OurTeam />
+      <OurGoal />
+      <WhyChooseUs />
+      <OurVision />
+      <Owner />
 
 
       {/* ── Program Pillars ── */}

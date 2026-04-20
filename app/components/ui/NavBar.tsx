@@ -11,7 +11,7 @@ const navLinks = [
 ];
 
 export default function Navbar() {
-  const [isOpen,   setIsOpen]   = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -24,7 +24,9 @@ export default function Navbar() {
   // Lock body scroll when sidebar is open
   useEffect(() => {
     document.body.style.overflow = isOpen ? "hidden" : "";
-    return () => { document.body.style.overflow = ""; };
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, [isOpen]);
 
   return (
@@ -38,7 +40,6 @@ export default function Navbar() {
         ].join(" ")}
       >
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6 lg:px-4">
-
           {/* Logo */}
           <Link
             href="/"
@@ -63,13 +64,14 @@ export default function Navbar() {
           {/* Desktop CTA */}
           <div className="hidden md:flex flex-col md:flex-row items-center gap-2 md:block">
             <a
+              target="_blank"
               href="https://docs.google.com/forms/d/e/1FAIpQLSdHvr5R3_eS0nwktsFXqSuOYsEY9dgGL9o81FpBuD_gdY6BSQ/viewform?usp=dialog"
               className="btn-gradient group heading inline-flex cursor-pointer items-center gap-3 rounded-xl px-6 py-2.5 text-sm font-bold shadow-lg transition-all hover:scale-[1.02]"
             >
               انضم الآن
               <ArrowLeft className="h-5 w-5 transition-transform group-hover:-translate-x-1" />
             </a>
-          {/* <div className="hidden md:block w-8">
+            {/* <div className="hidden md:block w-8">
             <LanguageSwitcher />
           </div> */}
           </div>
@@ -92,7 +94,9 @@ export default function Navbar() {
         onClick={() => setIsOpen(false)}
         className={[
           "fixed inset-0 z-50 bg-black/30 backdrop-blur-sm md:hidden transition-opacity duration-300",
-          isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none",
+          isOpen
+            ? "opacity-100 pointer-events-auto"
+            : "opacity-0 pointer-events-none",
         ].join(" ")}
       />
 
@@ -144,7 +148,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="btn-gradient inline-flex w-full items-center heading justify-center gap-2 rounded-xl py-3.5 text-sm font-bold shadow-lg transition-all"
           >
-            انضم الآن
+            سجل الآن
             <ArrowLeft className="h-5 w-5" />
           </a>
         </div>

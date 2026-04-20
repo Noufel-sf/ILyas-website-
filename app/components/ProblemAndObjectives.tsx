@@ -90,8 +90,7 @@ export default function ProblemAndObjectives() {
               فجوة بين الشباب والمجالس المنتخبة
             </h3>
             <p className="mt-4 text-base leading-8 text-rose-800/80">
-              وجود فجوة بين الشباب والمجالس المنتخبة، ما يحد من فرص المشاركة
-              السياسية الفعالة وصناعة القرار المحلي.
+            عزوف متزايد لدى الشباب عن الانخراط والمشاركة في المشهد السياسي مقابل غياب التوعية و التكوين الجاد.
             </p>
             {/* decorative number */}
             <span className="absolute -left-3 -bottom-6 text-[7rem] font-black text-rose-200/60 select-none leading-none pointer-events-none">
