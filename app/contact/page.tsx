@@ -1,6 +1,7 @@
 import Link from "next/link";
 import FaqSection from "../components/FaqSection";
 import OurLocation from "../components/OurLocation";
+import { ArrowLeft } from "lucide-react";
 
 const socials = [
   {
@@ -90,6 +91,17 @@ export default function ContactPage() {
           للاستفسار حول الدفعات القادمة، شروط المشاركة، أو تفاصيل البرنامج，
           يمكنك مراسلتنا عبر المنصات التالية وسنرد عليك في أقرب وقت.
         </p>
+           <div className="px-6 pb-8 max-w-sm mt-5 mx-auto">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdHvr5R3_eS0nwktsFXqSuOYsEY9dgGL9o81FpBuD_gdY6BSQ/viewform?usp=dialog"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-gradient inline-flex w-full items-center heading justify-center gap-2 rounded-xl py-3.5 text-sm font-bold shadow-lg transition-all"
+          >
+            انضم الآن
+            <ArrowLeft className="h-5 w-5" />
+          </a>
+        </div>
         <div className="mx-auto mt-8 h-px w-12 bg-primary" />
       </div>
 

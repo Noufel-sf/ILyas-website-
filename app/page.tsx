@@ -4,6 +4,7 @@ import ProblemAndObjectives from "./components/ProblemAndObjectives";
 import OurVision from "./components/OurVision";
 import OurGoal from "./components/OurGoal";
 import OurValues from "./components/OurValues";
+import Plan from "./components/Plan";
 import CtaSection from "./components/CtaSection";
 
 export default function Page() {
@@ -14,6 +15,7 @@ export default function Page() {
       <ProblemAndObjectives />
       <OurGoal />
       <OurValues />
+      <Plan />
       {/* <OurValues2 /> */}
       <FaqSection />
       <CtaSection />
