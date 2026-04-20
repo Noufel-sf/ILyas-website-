@@ -65,10 +65,10 @@ export default function Navbar() {
           <div className="hidden md:flex flex-col md:flex-row items-center gap-2 md:block">
             <a
               target="_blank"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdHvr5R3_eS0nwktsFXqSuOYsEY9dgGL9o81FpBuD_gdY6BSQ/viewform?usp=dialog"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfbaB2RWp_-TUz-QmFcEI1RDSXqHGAT_W0SxGcHdRHxbjSl5g/viewform"
               className="btn-gradient group heading inline-flex cursor-pointer items-center gap-3 rounded-xl px-6 py-2.5 text-sm font-bold shadow-lg transition-all hover:scale-[1.02]"
             >
-              انضم الآن
+              سجل الآن
               <ArrowLeft className="h-5 w-5 transition-transform group-hover:-translate-x-1" />
             </a>
             {/* <div className="hidden md:block w-8">
@@ -143,7 +143,7 @@ export default function Navbar() {
         {/* Bottom CTA */}
         <div className="px-6 pb-8">
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdHvr5R3_eS0nwktsFXqSuOYsEY9dgGL9o81FpBuD_gdY6BSQ/viewform?usp=dialog"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfbaB2RWp_-TUz-QmFcEI1RDSXqHGAT_W0SxGcHdRHxbjSl5g/viewform"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-gradient inline-flex w-full items-center heading justify-center gap-2 rounded-xl py-3.5 text-sm font-bold shadow-lg transition-all"

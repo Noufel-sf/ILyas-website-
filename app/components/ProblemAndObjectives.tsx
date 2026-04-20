@@ -86,9 +86,7 @@ export default function ProblemAndObjectives() {
             <p className="heading text-xs font-bold uppercase tracking-widest text-rose-500 mb-4">
               الإشكالية
             </p>
-            <h3 className="heading text-2xl font-extrabold text-rose-900 sm:text-3xl leading-snug">
-              فجوة بين الشباب والمجالس المنتخبة
-            </h3>
+         
             <p className="mt-4 text-base leading-8 text-rose-800/80">
             عزوف متزايد لدى الشباب عن الانخراط والمشاركة في المشهد السياسي مقابل غياب التوعية و التكوين الجاد.
             </p>

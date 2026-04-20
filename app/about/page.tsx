@@ -6,6 +6,7 @@ import WhyChooseUs from "../components/WhyChooseUs";
 import OurVision from "../components/OurVision";
 import OurGoal from "../components/OurGoal";
 import OurTeam from "../components/OurTeam";
+import Plan from "../components/Plan";
 
 export default function AboutPage() {
   return (
@@ -38,7 +39,7 @@ export default function AboutPage() {
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
               target="_blank"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdHvr5R3_eS0nwktsFXqSuOYsEY9dgGL9o81FpBuD_gdY6BSQ/viewform?usp=dialog"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfbaB2RWp_-TUz-QmFcEI1RDSXqHGAT_W0SxGcHdRHxbjSl5g/viewform"
               className="btn-gradient group inline-flex items-center gap-2 rounded-xl px-8 py-3.5 text-lg font-bold shadow-lg transition-all hover:scale-105"
             >
                سجل الآن
@@ -51,6 +52,7 @@ export default function AboutPage() {
       <OurGoal />
       <WhyChooseUs />
       <OurVision />
+      <Plan />
       <Owner />
 
 
@@ -85,40 +87,6 @@ export default function AboutPage() {
                 </p>
               </article>
             ))}
-          </div>
-        </div>
-      </section> */}
-
-      {/* ── Impact Stats ── */}
-      {/* <section className="px-4 py-20 sm:px-8 lg:px-12">
-        <div className="mx-auto max-w-6xl">
-          <div className="grid gap-8 sm:grid-cols-3">
-            <div className="rounded-2xl border border-primary/20 bg-linear-to-br from-primary/10 to-white p-8 text-center">
-              <div className="heading mb-3 text-4xl font-bold text-primary sm:text-5xl">
-                390+
-              </div>
-              <p className="text-lg font-semibold text-slate-700">
-                شاب وشابة مهتمين
-              </p>
-            </div>
-
-            <div className="rounded-2xl border border-primary/20 bg-linear-to-br from-primary/10 to-white p-8 text-center">
-              <div className="heading mb-3 text-4xl font-bold text-primary sm:text-5xl">
-                4
-              </div>
-              <p className="text-lg font-semibold text-slate-700">
-                مسارات تدريبية
-              </p>
-            </div>
-
-            <div className="rounded-2xl border border-primary/20 bg-linear-to-br from-primary/10 to-white p-8 text-center">
-              <div className="heading mb-3 text-4xl font-bold text-primary sm:text-5xl">
-                DZ
-              </div>
-              <p className="text-lg font-semibold text-slate-700">
-                دعم رسمي وطني
-              </p>
-            </div>
           </div>
         </div>
       </section> */}
