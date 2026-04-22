@@ -2,6 +2,7 @@ import Link from "next/link";
 import FaqSection from "../components/FaqSection";
 import OurLocation from "../components/OurLocation";
 import { ArrowLeft } from "lucide-react";
+import WerbsiteBuilder from "../components/WerbsiteBuilder";
 
 const socials = [
   {
@@ -12,7 +13,13 @@ const socials = [
     description: "تابع آخر الإعلانات والأنشطة التكوينية",
     color: "hover:border-[#E1306C] hover:text-[#E1306C]",
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-7 h-7">
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={1.5}
+        className="w-7 h-7"
+      >
         <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
         <circle cx="12" cy="12" r="4" />
         <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" />
@@ -77,7 +84,6 @@ const socials = [
 export default function ContactPage() {
   return (
     <main dir="rtl" className="min-h-screen flex flex-col">
-
       {/* ── Hero ── */}
       <div className="w-full pt-24 pb-16 px-6 text-center">
         <p className="mb-5 heading inline-flex rounded-full bg-primary/10 px-4 py-2 text-sm font-semibold text-primary">
@@ -85,13 +91,16 @@ export default function ContactPage() {
         </p>
         <h1 className="heading mb-5 text-[2.4rem] font-bold leading-[1.15] tracking-tight text-slate-900 lg:text-[4rem]">
           تواصل مع فريق
-          <span className="text-primary heading marker-underline"> مشروع البوصلة</span>
+          <span className="text-primary heading marker-underline">
+            {" "}
+            مشروع البوصلة
+          </span>
         </h1>
         <p className="mx-auto max-w-2xl text-[0.95rem] leading-[1.95] text-slate-600 sm:text-lg">
           للاستفسار حول الدفعات القادمة، شروط المشاركة، أو تفاصيل البرنامج，
           يمكنك مراسلتنا عبر المنصات التالية وسنرد عليك في أقرب وقت.
         </p>
-           <div className="px-6 pb-8 max-w-sm mt-5 mx-auto">
+        <div className="px-6 pb-8 max-w-sm mt-5 mx-auto">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdHvr5R3_eS0nwktsFXqSuOYsEY9dgGL9o81FpBuD_gdY6BSQ/viewform?usp=dialog"
             target="_blank"
@@ -161,9 +170,7 @@ export default function ContactPage() {
           <div className="h-px flex-1 bg-primary/20" />
         </div>
 
-        <span
-          className="btn-gradient group flex w-full items-center justify-between rounded-2xl  px-8 py-7 transition-colors duration-300"
-        >
+        <span className="btn-gradient group flex w-full items-center justify-between rounded-2xl  px-8 py-7 transition-colors duration-300">
           <div className="flex flex-col gap-1">
             <span className="text-[0.72rem] font-semibold tracking-[0.12em] opacity-80">
               البريد الإلكتروني
@@ -185,14 +192,14 @@ export default function ContactPage() {
 
         {/* ── Response note ── */}
         <p className="mt-10 text-center text-[0.8rem] leading-relaxed text-slate-500">
-           شلغوم العيد · متاحون للتنسيق عبر مختلف ولايات الوطن
+          شلغوم العيد · متاحون للتنسيق عبر مختلف ولايات الوطن
           <br />
           معدل الرد: خلال 24 ساعة
         </p>
       </div>
       <OurLocation />
+      <WerbsiteBuilder />
       <FaqSection />
-
     </main>
   );
 }

@@ -25,10 +25,8 @@ export default function OurVision() {
       </span>
 
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-12 lg:flex-row lg:items-stretch lg:gap-16">
-
         {/* ── Text column ─────────────────────────────────── */}
         <div className="flex flex-1 flex-col justify-center text-right">
-
           {/* badge */}
           <span className="inline-flex w-fit items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-primary">
             <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
@@ -40,7 +38,6 @@ export default function OurVision() {
             لماذا هذا{" "}
             <span className="relative text-primary heading marker-underline">
               البرنامج
-           
             </span>{" "}
             مهم؟
           </h2>
@@ -57,15 +54,15 @@ export default function OurVision() {
 
           {/* mission + vision cards */}
           <div className="grid gap-4 sm:grid-cols-2">
-          
             <article className="group relative overflow-hidden rounded-2xl border border-primary/15 bg-primary/[0.04] p-5 transition-all duration-200 hover:border-primary/35">
               <div className="absolute left-0 top-0 h-full w-1 bg-primary rounded-r-full" />
-              
+
               <h3 className="heading text-lg font-extrabold text-slate-900">
                 رؤية واضحة
               </h3>
               <p className="mt-2 text-sm leading-7 text-slate-600">
-                إعداد جيل واعٍ وقادر على المشاركة الفعالة في الحياة السياسية وصناعة القرار
+                إعداد جيل واعٍ وقادر على المشاركة الفعالة في الحياة السياسية
+                وصناعة القرار
               </p>
             </article>
           </div>
@@ -73,7 +70,6 @@ export default function OurVision() {
 
         {/* ── Image column ─────────────────────────────────── */}
         <div className="relative w-full max-w-sm shrink-0 sm:max-w-md lg:max-w-[26rem]">
-
           {/* decorative frame behind image */}
           <div className="absolute -bottom-4 -left-4 h-full w-full rounded-3xl border-2 border-primary/15" />
 
@@ -86,21 +82,19 @@ export default function OurVision() {
               className="object-cover"
               priority
             />
-
-       
           </div>
 
           {/* small accent dot grid */}
           <div
             className="absolute -right-6 -top-6 -z-10 h-24 w-24 opacity-30"
             style={{
-              backgroundImage: "radial-gradient(circle, currentColor 1px, transparent 1px)",
+              backgroundImage:
+                "radial-gradient(circle, currentColor 1px, transparent 1px)",
               backgroundSize: "8px 8px",
               color: "var(--color-primary, #2563eb)",
             }}
           />
         </div>
-
       </div>
     </section>
   );
