@@ -49,11 +49,11 @@ export default function AboutPage() {
         </div>
       </section>
       <OurTeam />
+      <Owner />
       <OurGoal />
       <WhyChooseUs />
       <OurVision />
       <Plan />
-      <Owner />
 
 
       {/* ── Program Pillars ── */}
@@ -119,6 +119,15 @@ export default function AboutPage() {
                 title: "الاستدامة",
                 desc: "بناء تأثير طويل الأمد يستمر ويتطور عبر الأجيال.",
               },
+              {
+                title: "الحياد",
+                desc: "الالتزام بالعدالة والمساواة في جميع أعمالنا.",
+              },
+              {
+                title: "العمل الجماعي",
+                desc: "التعاون والتنسيق بين أعضاء الفريق لتحقيق الأهداف المشتركة.",
+              },
+
             ].map((value, idx) => (
               <article
                 key={idx}

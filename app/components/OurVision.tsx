@@ -60,9 +60,7 @@ export default function OurVision() {
           
             <article className="group relative overflow-hidden rounded-2xl border border-primary/15 bg-primary/[0.04] p-5 transition-all duration-200 hover:border-primary/35">
               <div className="absolute left-0 top-0 h-full w-1 bg-primary rounded-r-full" />
-              <span className="mb-3 block text-xs font-bold uppercase tracking-widest text-primary/60">
-                02
-              </span>
+              
               <h3 className="heading text-lg font-extrabold text-slate-900">
                 رؤية واضحة
               </h3>
