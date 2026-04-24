@@ -91,7 +91,7 @@ export default function HeroSection() {
         {/* Programme badge (top-left in RTL = visual right) */}
         <span className="hidden sm:inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white/80 px-4 py-2 text-xs font-semibold text-slate-600 shadow-sm backdrop-blur-sm">
           <span className="h-2 w-2 rounded-full bg-green-400 animate-pulse" />
-          وزارة الشباب · DZ Young Leaders
+         الياس منصر· DZ Young Leaders
         </span>
       </motion.nav>
 
