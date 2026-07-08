@@ -31,9 +31,7 @@ export default function AboutPage() {
           </h1>
 
           <p className="mx-auto mb-8 max-w-3xl text-lg leading-8 text-slate-600 sm:text-xl">
-            مبادرة شبابية تكوينية تسعى إلى تأهيل وتمكين الشباب الجزائري في
-            المجال السياسي وصناعة القرار، من خلال تكوينات تطبيقية تعزز الكفاءة
-            والقيادة والمسؤولية.
+مبادرة شبابية تسعى إلى تعزيز مشاركة الشباب في الحياة السياسية والمدنية , من خلال دورات تكوينية ، لقاءات ، أنشطة تفاعلية ، زيارات ميدانية...الخ
           </p>
 
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
