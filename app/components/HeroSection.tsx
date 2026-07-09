@@ -142,8 +142,8 @@ export default function HeroSection() {
           transition={{ duration: 0.7, delay: 0.3, ease: "easeOut" }}
           className="mt-6 max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl"
         >
-          مشروع البوصلة مبادرة شبابية لتأهيل وتمكين الشباب في المجال السياسي عبر
-          مسارات مهارية، قانونية، إدارية وسياسية.
+          مشروع البوصلة مبادرة شبابية لتأهيل وتمكين الشباب في المجال السياسي و الحياة المدنية عبر
+          مسارات مهارية، قانونية، إدارية و أنشطة تفاعلية. 
         </motion.p>
         <motion.p
           initial={{ opacity: 0, y: 16 }}

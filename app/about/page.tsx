@@ -31,7 +31,9 @@ export default function AboutPage() {
           </h1>
 
           <p className="mx-auto mb-8 max-w-3xl text-lg leading-8 text-slate-600 sm:text-xl">
-مبادرة شبابية تسعى إلى تعزيز مشاركة الشباب في الحياة السياسية والمدنية , من خلال دورات تكوينية ، لقاءات ، أنشطة تفاعلية ، زيارات ميدانية...الخ
+            مبادرة شبابية تسعى إلى تعزيز مشاركة الشباب في الحياة السياسية
+            والمدنية , من خلال دورات تكوينية ، لقاءات ، أنشطة تفاعلية ، زيارات
+            ميدانية...الخ
           </p>
 
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -40,7 +42,7 @@ export default function AboutPage() {
               href="https://docs.google.com/forms/d/e/1FAIpQLSfbaB2RWp_-TUz-QmFcEI1RDSXqHGAT_W0SxGcHdRHxbjSl5g/viewform"
               className="btn-gradient group inline-flex items-center gap-2 rounded-xl px-8 py-3.5 text-lg font-bold shadow-lg transition-all hover:scale-105"
             >
-               سجل الآن
+              سجل الآن
               <ArrowLeft className="h-5 w-5 transition-transform group-hover:-translate-x-1" />
             </a>
           </div>
@@ -52,7 +54,6 @@ export default function AboutPage() {
       <WhyChooseUs />
       <OurVision />
       <Plan />
-
 
       {/* ── Program Pillars ── */}
       {/* <section className="relative overflow-hidden px-4 py-24 sm:px-8 lg:px-12">
@@ -125,7 +126,6 @@ export default function AboutPage() {
                 title: "العمل الجماعي",
                 desc: "التعاون والتنسيق بين أعضاء الفريق لتحقيق الأهداف المشتركة.",
               },
-
             ].map((value, idx) => (
               <article
                 key={idx}

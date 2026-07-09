@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Amiri , Readex_Pro } from "next/font/google";
+import { Amiri, Readex_Pro } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/ui/Footer";
 import NavBar from "./components/ui/NavBar";
@@ -18,8 +18,9 @@ const RubikSans = Readex_Pro({
 });
 
 export const metadata: Metadata = {
-  title: "مشروع البوصلة - تأهيل وتمكين الشباب في المجال السياسي",
-  description: "مشروع البوصلة هو مبادرة شبابية تهدف إلى تأهيل وتمكين الشباب في المجال السياسي من خلال مسارات مهارية، قانونية، إدارية وسياسية. يهدف المشروع إلى إعداد جيل واعٍ يفهم آليات العمل المؤسساتي ويشارك بفعالية في الحياة العامة، من خلال تكوينات تطبيقية تعزز الكفاءة والقيادة والمسؤولية.",
+  title: "مشروع البوصلة - تأهيل وتمكين الشباب في المجال السياسي والمدني",
+  description:
+    "مشروع البوصلة هو مبادرة شبابية تهدف إلى تأهيل وتمكين الشباب في المجال السياسي والمدني من خلال مسارات مهارية، قانونية، إدارية وسياسية. يهدف المشروع إلى إعداد جيل واعٍ يفهم آليات العمل المؤسساتي ويشارك بفعالية في الحياة العامة، من خلال تكوينات تطبيقية تعزز الكفاءة والقيادة والمسؤولية.",
 };
 
 export default function RootLayout({

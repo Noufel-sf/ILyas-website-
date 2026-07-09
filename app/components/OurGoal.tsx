@@ -24,8 +24,8 @@ export default function OurGoal() {
 
             <div className="grid gap-4 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
               <p className="text-base leading-8 text-slate-700 sm:text-lg sm:leading-9">
-                برنامج “البوصلة” هو برنامج تكويني معرفي يهدف إلى تأهيل الشباب في
-                مجالات السياسة وصناعة القرار،  <span className="font-extrabold text-red-600"> 
+                برنامج “البوصلة” هو برنامج تكويني معرفي يهدف إلى تأهيل الشباب 
+              وصناعة القرار، للمشاركة في الحياة السياسية و المدنية  <span className="font-extrabold text-red-600"> 
                   ويعتمد  على  مبدأ الحياد
                 والاستقلالية، حيث لا يُستغل في الحملات الانتخابية ولا في الترويج
                 لأي جهة أو تيار سياسي.
