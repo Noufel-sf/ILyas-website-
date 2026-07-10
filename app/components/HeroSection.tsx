@@ -119,9 +119,9 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.15, ease: "easeOut" }}
           className="mt-7 max-w-3xl text-3xl font-extrabold leading-tight heading text-gradient-primary sm:text-6xl"
         >
-          هل أنت مستعد لتقود التغيير وتُشارك في
+           هل أنت مستعد لتقود التغيير  و تكون فاعلا
           <span className="relative heading marker-underline text-primary mx-2 inline-block pb-2">
-            صناعة القرار ؟
+             في مجتمعك ؟
           </span>
         </motion.h1>
         <motion.div
